@@ -1,0 +1,60 @@
+.checkout-ad{
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+
+.checkout-title{
+    margin-bottom: 20px;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.checkout-left{
+    flex: 0.75;
+    padding: 15px;
+}
+
+.checkout-right{
+    flex: 0.25;
+}
+
+.checkout{
+    background-color: white;
+}
+
+.checkout-sum{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:rgb(228, 224, 224);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.checkout-subtotal{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkout-sum > button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    align-self: center;
+}
